@@ -67,7 +67,7 @@ def main():
     """
     st.markdown(subheader_template, unsafe_allow_html=True)
 
-    st.sidebar.image("nlp.png", use_container_width=True)
+    st.sidebar.image("nlp.png", use_column_width=True)
 
     activity = ["Text Analysis", "Translation", "Sentiment Analysis", "About"]
     choice = st.sidebar.selectbox("Menu", activity)
